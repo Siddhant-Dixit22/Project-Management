@@ -46,7 +46,7 @@ export const SignUpCard = () => {
         <Card className="w-full h-full md:w-[487px] border-none shadow-none">
             <CardHeader className="flex items-center justify-center text-center p-7">
                 <CardTitle className="text-2xl">
-                    Welcome! Sign Up!
+                    Welcome!
                 </CardTitle>
                 <CardDescription>
                     By signing up, you agree to our{" "}
@@ -59,7 +59,7 @@ export const SignUpCard = () => {
                     </Link>
                 </CardDescription>
             </CardHeader>
-            <div className="p-7">
+            <div className="p-2">
                 <DottedSeparator/>
             </div>
             <CardContent className="p-7">
