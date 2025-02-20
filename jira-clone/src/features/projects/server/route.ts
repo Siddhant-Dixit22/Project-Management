@@ -96,8 +96,6 @@ const app = new Hono()
                 ],
             );
 
-            // console.log({ projects })
-
             return c.json({ data: projects });
         }
     );
