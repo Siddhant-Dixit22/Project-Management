@@ -116,7 +116,7 @@ const app = new Hono()
                 DATABASE_ID,
                 PROJECTS_ID,
                 projectId,
-            )
+            );
 
             const member = await getMember({
                 databases,
