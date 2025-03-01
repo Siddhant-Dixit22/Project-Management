@@ -1,7 +1,18 @@
+import { Models } from "node-appwrite";
+
 export enum TaskStatus {
     BACKLOG = "BACKLOG",
     IN_PROGRESS = "IN_PROGRESS",
     DONE = "DONE",
     TODO = "TODO",
     IN_REVIEW = "IN_REVIEW",
+}
+
+export type Task = Models.Document & {
+    name: string;
+    status: TaskStatus;
+    assigneeId: string;
+    projectId: string;
+    position: number;
+    dueDate: string;
 }
