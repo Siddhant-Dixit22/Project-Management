@@ -19,7 +19,7 @@ This project is intended for educational purposes, demonstrating how to build a 
 
 ## Technologies Used
 - React.js
-- Node.js/Express.js (or similar backend framework)
+- Hono
 - Appwrite
 - TypeScript
 - HTML/CSS
