@@ -278,7 +278,7 @@ export const EditWorkspaceForm = ({ onCancel, initialValues }: EditWorkspaceForm
                             size="sm"
                             variant="destructive"
                             type="button"
-                            disabled={isPending || isDeletingWorkspace}
+                            disabled={isPending || isResettingInviteCode}
                             onClick={handleResetInviteCode}
                         >
                             Reset Invite Link

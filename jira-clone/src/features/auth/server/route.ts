@@ -1,4 +1,3 @@
-import { z } from "zod";
 import { Hono } from "hono";
 import { ID } from "node-appwrite";
 import { deleteCookie, setCookie } from "hono/cookie";
